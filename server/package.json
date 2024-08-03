@@ -1,0 +1,22 @@
+{
+    "type": "commonjs",
+  "name": "nirim-site-server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && rm app.zip && zip -r app.zip *"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "mongoose-unique-validator": "^5.0.0",
+    "tsx": "^4.16.5"
+  }
+}
